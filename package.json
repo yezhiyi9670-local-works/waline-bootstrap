@@ -1,0 +1,12 @@
+{
+  "name": "sparkslab-waline-comments",
+  "version": "0.0.0",
+  "description": "Comment system backend for Sparks Lab websites.",
+  "license": "MIT",
+  "dependencies": {
+    "@waline/vercel": "^1.32.3"
+  },
+  "scripts": {
+    "start": "node --env-file=.env node_modules/@waline/vercel/vanilla.js"
+  }
+}
